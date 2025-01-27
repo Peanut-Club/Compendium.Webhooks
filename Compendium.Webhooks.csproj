@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Compendium.Webhooks</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyVersion>2024.12.24</AssemblyVersion>
+    <FileVersion>2024.12.24</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(SL_REFERENCES)\Assembly-CSharp-Publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="Mirror">
+      <HintPath>$(SL_REFERENCES)\Mirror-Publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="PluginAPI">
+      <HintPath>$(SL_REFERENCES)\PluginAPI-Publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="Compendium.API">
+      <HintPath>$(OTHER_REFERENCES)\Compendium.API.dll</HintPath>
+    </Reference>
+    <Reference Include="Pooling">
+      <HintPath>$(SL_REFERENCES)\Pooling.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(SL_REFERENCES)\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandSystem.Core">
+      <HintPath>$(SL_REFERENCES)\CommandSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>$(OTHER_REFERENCES)\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="helpers">
+      <HintPath>$(OTHER_REFERENCES)\helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>$(OTHER_REFERENCES)\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>
